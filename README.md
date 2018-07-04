@@ -3,7 +3,7 @@ bwa is a kind of bioinformatic analysis application
 
 # test steps
 
-1.  download from baidu yun disk
+## 1.download from baidu yun disk
 
 filename : hwfssz4_test100_bwa-assess_16.tar.bz2a[a-d] 
 
@@ -28,9 +28,9 @@ case2: 在2个vm中同时跑bwa test,跑完的时间为t2
 一般来讲， t2> t1, 计算 (t2-t1)/t1,该值越小越好。
 
 
-2. how to run bwa test ? 
+## 2. how to run bwa test ? 
 
-## 将解压后的2个文件夹放入对应的目录 
+### 将解压后的2个文件夹放入对应的目录 
 
 ```bash
 mkdir /hwfssz4/test100/bwa-assess
@@ -39,7 +39,7 @@ mv bwa-0.7.12  /share/app
 mv 16  /hwfssz4/test100/bwa-assess
 ```
 
-## 调整参数，跑脚本 
+### 调整参数，跑脚本 
 
 这里还是以32 cpu core的compute node为例,确保bwa.sh脚本中的线程数`-t 16` 等于作为vm的vcpu core数量 
 ```
