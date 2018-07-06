@@ -15,6 +15,9 @@ ad59f861f15319da56c9aa02bbd15c50  hwfssz4_test100_bwa-assess_16.tar.bz2aa
 c1dde8866a222ee98664efbcb4e8a3f1  hwfssz4_test100_bwa-assess_16.tar.bz2ac
 eafa7439bf2efccde144647ca82e9539  hwfssz4_test100_bwa-assess_16.tar.bz2ad
 894f471d118b71f6c98ce6105a0b24c7  bwa-0.7.12.tar.bz2
+
+cat  hwfssz4_test100_bwa-assess_16.tar.bz2aa hwfssz4_test100_bwa-assess_16.tar.bz2ab hwfssz4_test100_bwa-assess_16.tar.bz2ac hwfssz4_test100_bwa-assess_16.tar.bz2ad > hwfssz4_test100_bwa-assess_16.tar.bz2
+
 ```
 
 文件解压之后30G大小，在Openstack平台，找一个干净的计算节点，满足最小条件: CPU core >=24, memory >=120G
